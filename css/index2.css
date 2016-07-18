@@ -1,0 +1,82 @@
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 16px;
+    background-color: #F9F6F6;;
+    opacity: 1;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #fff;
+}
+
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+*{
+    scrollbar-3dlight-color:#333; /*- 最外左 -*/
+    scrollbar-highlight-color:rgba(40, 39, 39, 1); /*- 左二 -*/
+    scrollbar-face-color:rgba(40, 39, 39, 1); /*- 面子 -*/
+    scrollbar-arrow-color:#666; /*- 箭头 -*/
+    scrollbar-shadow-color:rgba(51, 50, 50, 1); /*- 右二 -*/
+    scrollbar-darkshadow-color:rgba(51, 50, 50, 1); /*- 右一 -*/
+    scrollbar-base-color:rgba(38, 38, 38, 1); /*- 基色 -*/
+    scrollbar-track-color:#333;/*- 滑道 -*/
+}
+
+.controlBtn_Component button {
+    color: black;
+}
+
+.process_Component_processBack{
+    background-color: #BFBFBF!important ;
+}
+.voice_Component_processYet{
+    background-color: #8c8c8c!important;
+}
+
+
+
+
+
+
+
+@-webkit-keyframes hehe {
+    0%{
+        -webkit-transform: rotate(160deg);
+    }
+     50%{
+        -webkit-transform: rotate(-20deg);
+    }
+    100%{
+        -webkit-transform: rotate(-200deg);
+    }       
+}
+@keyframes hehe {
+    0%{
+        transform: rotate(160deg);
+    }
+     50%{
+        transform: rotate(-20deg);
+    }
+    100%{
+        transform: rotate(-200deg);
+    }       
+}
+.lyrics_Component.anima_hehe{
+
+      -webkit-animation:hehe 20s cubic-bezier(0, -0.01, 1, 1) 0s infinite;
+      animation:hehe 20s cubic-bezier(0, -0.01, 1, 1) 0s infinite;
+    }
+
+
+
+
+      /*-webkit-animation-name: 'hehe'; 动画名称*/
+      /*-webkit-animation-duration: 10s;播放一次所持续时间*/
+      /*-webkit-animation-timing-function: cubic-bezier(0, -0.01, 1, 1);动画播放频率*/
+      /*-webkit-animation-iteration-count: infinite;动画播放次涒为无限次*/

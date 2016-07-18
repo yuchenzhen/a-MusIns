@@ -1,0 +1,45 @@
+.comment_right_content_command{
+	position:relative;
+	top:-20px;\*Chrome*\ 
+	*top:0;\*IE7,8 Firefox*\ 
+	-top:0;\*IE6*\
+}
+
+.comment_right_content_release_pic{
+	overflow-x: hidden;\*Chrome*\ 
+	*overflow-x: -moz-hidden-unscrollable;\*IE7,8 Firefox*\ 
+}
+
+
+
+/*chrome 滚动条*/
+
+*::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+    background-color: #333;
+    opacity: 1;
+}
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #333;
+}
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+
+/*IE 滚动条*/
+*{
+	scrollbar-3dlight-color:#333; /*- 最外左 -*/
+	scrollbar-highlight-color:rgba(40, 39, 39, 1); /*- 左二 -*/
+	scrollbar-face-color:rgba(40, 39, 39, 1); /*- 面子 -*/
+	scrollbar-arrow-color:#666; /*- 箭头 -*/
+	scrollbar-shadow-color:rgba(51, 50, 50, 1); /*- 右二 -*/
+	scrollbar-darkshadow-color:rgba(51, 50, 50, 1); /*- 右一 -*/
+	scrollbar-base-color:rgba(38, 38, 38, 1); /*- 基色 -*/
+	scrollbar-track-color:#333;/*- 滑道 -*/
+}

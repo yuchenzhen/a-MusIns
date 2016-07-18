@@ -1,0 +1,20 @@
+{
+  "name": "as",
+  "version": "1.0.0",
+  "description": "text",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-connect": "^3.2.1",
+    "gulp-uglify": "^1.5.3"
+  },
+  "dependencies": {
+    "aplayer": "^1.5.0"
+  }
+}

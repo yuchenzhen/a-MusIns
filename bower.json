@@ -1,0 +1,23 @@
+{
+  "name": "as",
+  "description": "test project",
+  "main": "index.html",
+  "authors": [
+    "yuchen <645097363@qq.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "bootstrap": "^3.3.6",
+    "less": "^2.6.1"
+  }
+}
